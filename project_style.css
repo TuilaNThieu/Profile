@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: beige;
+}
+@font-face{
+  src: url(morison-displaylight.otf);
+  font-family: morison;
+}
+.font-1{
+  font-family: morison;
+}
+@font-face{
+  src: url(Zermatt\ Second.ttf);
+  font-family: zermatt;
+}
+.font-2{
+  font-family: zermatt;
+}
+.nav{
+  font-size: 60px;
+  opacity: 0.3;
+  font-family: zermatt;
+  transition: all 0.3s ease-in-out;
+}
+.nav:hover{
+  opacity: 1;
+  font-size: 70px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.image {
+  width: 100px;
+}
